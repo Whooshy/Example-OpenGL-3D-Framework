@@ -1,0 +1,2 @@
+g++ -Wall ../src/main.cpp ../src/utils/utilmath.cpp ../src/engine/shader.cpp ../src/engine/mesh.cpp ../src/engine/renderer.cpp ../src/entities/entity.cpp ../src/utils/ui.cpp ../src/utils/font.cpp ../src/utils/texture.cpp ../src/engine/viewport.cpp ../src/engine/mesh_ref.cpp ../src/entities/sector.cpp -L./ -lopengl32 -lgdi32 -lglfw3 -lglew32 -o Game.exe
+pause
